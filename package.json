@@ -1,8 +1,16 @@
 {
   "name": "vercel-proxy",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Bein Sports Proxy API for Vercel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel start"
+  },
+  "dependencies": {},
+  "devDependencies": {},
   "engines": {
-    "node": "18.x"
-  }
+    "node": ">=18.x"
+  },
+  "license": "MIT"
 }
